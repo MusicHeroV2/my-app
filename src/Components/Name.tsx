@@ -1,14 +1,16 @@
 import '../App.css'
 
 
-interface Name{
-    name: any
+interface a{
+    props: any
 }
 
-export const Name=(array: Name)=>{
+export const Name=({props}:a)=>{
+   
+   
     return(
         <div className="Name">
-            {array.name}
+           {props.name}
         </div>
     )
 }

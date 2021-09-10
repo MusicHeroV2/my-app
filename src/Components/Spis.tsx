@@ -1,18 +1,24 @@
-import { Avatar } from "./Avatar";
-import { LastMessage } from "./LastMessage";
-import { Name } from "./Name";
-import '../App.css'
+// import { Avatar } from "./Avatar";
+// import { LastMessage } from "./LastMessage";
+// import { Name } from "./Name";
+// import '../App.css'
+// import Spisok from './Spisok'
 
-interface arr{
-    array: any
-}
+// interface arr{
+//     props: any,
+//     ar: any
+// }
 
-export const Spisok=(props: arr)=>{
-    return(
-        <div className="Spisok">
-            {props.array.map((array: arr)=>{
-                return(<Spisok array={array}/>)
-            }) }
-        </div>
-    )
+// export const Spis=(props:arr)=>{
+//     return(
+//         <div >   
+            
+//     {props.ar.map( ()=> (
+//       <Spisok props={props}/>
+//     ))}</div>
+//     )
+// }
+
+export const s=()=>{
+    <div></div>
 }
