@@ -1,11 +1,14 @@
 import '../App.css'
-import image from '../Pictures/A.png'
 
-export const Avatar= ()=>{
+interface h{
+     imgsrc:string
+}
+
+export const Avatar= ({imgsrc}:h)=>{
 
 return(
     
-     <img className="img" src={image} alt="."></img>
+     <img className="img" src={imgsrc} alt="."></img>
     
 )
 
