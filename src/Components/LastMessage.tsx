@@ -1,9 +1,13 @@
 import '../App.css'
 
-export const LastMessage=()=>{
+interface g{
+    lastmsg:string
+}
+
+export const LastMessage=({lastmsg}:g)=>{
     return(
         <div className="Lastmsg">
-            Last Message.
+            {lastmsg}
         </div>
     )
 }

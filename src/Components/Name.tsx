@@ -2,15 +2,15 @@ import '../App.css'
 
 
 interface a{
-    props: any
+    name: string
 }
 
-export const Name=({props}:a)=>{
+export const Name=({name}:a)=>{
    
    
     return(
         <div className="Name">
-           {props.name}
+           {name}
         </div>
     )
 }
