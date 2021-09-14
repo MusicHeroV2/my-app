@@ -6,22 +6,22 @@
   background-color: blueviolet;
   grid-auto-rows: minmax(800px, auto);
   margin-top: 40px;
-  
+
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.diiv{
+.diiv {
   background-color: crimson;
 }
 
-.empty{
+.empty {
   background-color: darkcyan;
 }
 
-.img{
+.img {
   width: 100%;
   height: auto;
   min-height: 80%;
@@ -29,7 +29,7 @@
   margin-top: 10%;
 }
 
-.Spisok{
+.Spisok {
   display: grid;
   grid-template-columns: 2fr 6fr;
   border-style: solid;
@@ -38,28 +38,28 @@
   background-color: white;
 }
 
-.Lastmsg{
+.Lastmsg {
   padding-bottom: 15px;
 }
 
-.main{
+.main {
   border-style: solid;
   border-color: darkgreen;
 }
 
-.Message{
+.Message {
   background-color: rgb(0, 148, 158);
   display: grid;
   grid-template-rows: 1fr 7fr 1fr;
 }
 
-.msg{
+.msg {
   display: grid;
   grid-template-columns: 3fr 6fr 1fr;
 
 }
 
-.image{
+.image {
   width: 100%;
   height: auto;
   min-height: 80%;
@@ -68,16 +68,16 @@
   margin-right: 10%;
 }
 
-.text{
+.text {
   text-align: left;
   padding: 4.5%;
 }
 
-.Name{
+.Name {
   padding: 10%;
 }
 
-.input{
+.input {
   display: grid;
   grid-template-columns: 2fr 10fr 2fr;
   border-style: solid;
@@ -86,7 +86,7 @@
 
 }
 
-.hz{
+.hz {
   outline: none;
   width: 100%;
   height: 50%;
@@ -94,26 +94,26 @@
   border: none;
 }
 
-.Soob{
+.Soob {
   border-style: solid;
   border-color: hotpink;
 }
 
-.mes{
+.mes {
   border-style: solid;
   border-color: rgb(28, 0, 184);
 }
 
-.btn{
+.btn {
   background-color: transparent;
-  border:none;
+  border: none;
   margin-top: 24%;
   margin-left: 30%;
- width: 50%;
- height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
-.ima{
+.ima {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -128,7 +128,9 @@
 }
 
 /* Hide default HTML checkbox */
-.switch input {display:none;}
+.switch input {
+  display: none;
+}
 
 /* The slider */
 .slider {
@@ -155,15 +157,15 @@
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);

@@ -12,13 +12,13 @@
 // export const Spis=(props:arr)=>{
 //     return(
 //         <div >   
-            
+
 //     {props.ar.map( ()=> (
 //       <Spisok props={props}/>
 //     ))}</div>
 //     )
 // }
 
-export const s=()=>{
+export const s = () => {
     <div></div>
 }

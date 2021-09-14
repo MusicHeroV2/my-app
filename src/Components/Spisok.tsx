@@ -3,7 +3,7 @@ import { LastMessage } from "./LastMessage";
 import { Name } from "./Name";
 import '../App.css'
 
-interface p{
+interface p {
     name: string,
     id: number,
     lastmsg: string,
@@ -11,13 +11,13 @@ interface p{
 }
 
 
-export const Spisok=({id, name, lastmsg, imgsrc}:p)=>{
-    return(
+export const Spisok = ({ id, name, lastmsg, imgsrc }: p) => {
+    return (
         <div className="Spisok">
-            <Avatar imgsrc={imgsrc}/> 
+            <Avatar imgsrc={imgsrc} />
             <div>
-            <Name name={name}/>   
-            <LastMessage lastmsg={lastmsg}/>
+                <Name name={name} />
+                <LastMessage lastmsg={lastmsg} />
             </div>
         </div>
     )
