@@ -3,14 +3,13 @@ import { Spisok } from './Components/Spisok';
 import { Message } from './Components/Message';
 import { Input } from './Components/Input';
 import { Switch } from './Components/Switch';
-
+import image from './Pictures/S.png'
 
 interface arr{
   id: number,
   name:string,
   imgsrc: string,
   lastmsg: string,
-
 }
 
 export const ar=[
@@ -42,7 +41,7 @@ function App({name,id,imgsrc,lastmsg}:arr) {
            text
          </div>
          <div className="input">
-           text<Input/>
+           text<Input/><button  className="btn" type="submit" form="form_1"><img className="ima" src={image} alt='.'/></button>
          </div>
          </div>
          <div className="empty">

@@ -1,5 +1,5 @@
 export const Input=()=>{
 return(
-    <input className="hz" type="text"/>
+    <form><input className="hz" id="from_1" type="text"/></form>
 )
 }
