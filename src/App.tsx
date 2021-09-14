@@ -19,7 +19,7 @@ export const ar=[
   {id:4, name:'Vladimir', imgsrc:'http://www.weareart.ru/public/uploads/news/967/b-IMG_2128edfef1b9.jpg', lastmsg:'accept'}
 ]
 
-function App({name,id,imgsrc,lastmsg}:arr) {
+const App = ({name,id,imgsrc,lastmsg}:arr) => {
   
   
   return (
