@@ -19,14 +19,19 @@ export const ar = [
   { id: 4, name: 'Vladimir', imgsrc: 'http://www.weareart.ru/public/uploads/news/967/b-IMG_2128edfef1b9.jpg', lastmsg: 'accept' }
 ]
 
+<<<<<<< Updated upstream
 const App = ({ name, id, imgsrc, lastmsg }: arr) => {
 
 
+=======
+const App = ({name,id,imgsrc,lastmsg}:arr) => {
+  
+>>>>>>> Stashed changes
   return (
-
 
     <div id="sos" className="App">
       <div className="empty"></div>
+<<<<<<< Updated upstream
       <div className="main">
         {ar.map(({ name, id, imgsrc, lastmsg }: arr) => (
           <Spisok name={name} id={id} imgsrc={imgsrc} lastmsg={lastmsg} />
@@ -47,6 +52,28 @@ const App = ({ name, id, imgsrc, lastmsg }: arr) => {
       <div className="empty">
         <Switch />
       </div>
+=======
+       <div className="main"> 
+       {ar.map(({name,id,imgsrc,lastmsg}:arr) => (
+              <Spisok name={name} id={id} imgsrc={imgsrc} lastmsg={lastmsg}/>
+            ))}
+          
+         </div>
+         <div className="Message">
+           <div className="mes">
+             <Message name={name}/>
+             </div>
+             <div className="Soob" >
+           text
+         </div>
+         <div className="input">
+           text<Input/><button className="btn" type="submit" form="form_1"><img className="ima" src={image} alt='.'/></button>
+         </div>
+         </div>
+         <div className="empty">
+         <Switch/>
+         </div>
+>>>>>>> Stashed changes
     </div>
   );
 }
