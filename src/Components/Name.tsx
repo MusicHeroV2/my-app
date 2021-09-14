@@ -1,16 +1,16 @@
 import '../App.css'
 
 
-interface a{
+interface a {
     name: string
 }
 
-export const Name=({name}:a)=>{
-   
-   
-    return(
+export const Name = ({ name }: a) => {
+
+
+    return (
         <div className="Name">
-           {name}
+            {name}
         </div>
     )
 }
