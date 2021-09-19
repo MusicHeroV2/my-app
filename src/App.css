@@ -29,7 +29,7 @@
   margin-top: 10%;
 }
 
-.Spisok {
+.Chat {
   display: grid;
   grid-template-columns: 2fr 6fr;
   border-style: solid;

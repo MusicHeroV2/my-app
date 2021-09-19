@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../App.css'
 
 interface h {
      imgsrc: string

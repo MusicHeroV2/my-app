@@ -1,7 +1,7 @@
 import { Avatar } from "./Avatar";
 import { LastMessage } from "./LastMessage";
 import { Name } from "./Name";
-import '../App.css'
+import '../../App.css'
 
 interface p {
     name: string,
@@ -11,9 +11,9 @@ interface p {
 }
 
 
-export const Spisok = ({ id, name, lastmsg, imgsrc }: p) => {
+export const Chat = ({ id, name, lastmsg, imgsrc }: p) => {
     return (
-        <div className="Spisok">
+        <div className="Chat">
             <Avatar imgsrc={imgsrc} />
             <div>
                 <Name name={name} />
