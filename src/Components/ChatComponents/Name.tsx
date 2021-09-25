@@ -1,16 +1,9 @@
-import '../../App.css'
-
+import "../../App.css";
 
 interface a {
-    name: string
+  name: string;
 }
 
 export const Name = ({ name }: a) => {
-
-
-    return (
-        <div className="Name">
-            {name}
-        </div>
-    )
-}
+  return <div className="Name">{name}</div>;
+};

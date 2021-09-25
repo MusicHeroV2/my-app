@@ -1,25 +1,23 @@
 import { Avatar } from "./Avatar";
 import { LastMessage } from "./LastMessage";
 import { Name } from "./Name";
-import '../../App.css'
+import "../../App.css";
 
 interface p {
-    name: string,
-    id: number,
-    lastmsg: string,
-    imgsrc: string
+  name: string;
+  id: number;
+  lastmsg: string;
+  imgsrc: string;
 }
-
 
 export const Chat = ({ id, name, lastmsg, imgsrc }: p) => {
-    return (
-        <div className="Chat">
-            <Avatar imgsrc={imgsrc} />
-            <div>
-                <Name name={name} />
-                <LastMessage lastmsg={lastmsg} />
-            </div>
-        </div>
-    )
-}
-
+  return (
+    <div className="Chat">
+      <Avatar imgsrc={imgsrc} />
+      <div>
+        <Name name={name} />
+        <LastMessage lastmsg={lastmsg} />
+      </div>
+    </div>
+  );
+};
